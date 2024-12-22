@@ -21,7 +21,7 @@ const irRemoteReceiver = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['communication'],
-    helpLink: 'https://openblockcc.gitee.io/wiki/main'
+    helpLink: 'https://vcloudblock.gitee.io/wiki/main'
 });
 
 module.exports = irRemoteReceiver;

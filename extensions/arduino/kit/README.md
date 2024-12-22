@@ -6,6 +6,6 @@ These extensions are from the third-party equipment suppliers, and their code fo
 
 ## Third-party (第三方)
 
-OpenBlock community welcomes all parties to PR their own devices into the official version. Each type of device of the same third-party manufacturer is allowed to release 1-2 devices.
+VCloudBlock community welcomes all parties to PR their own devices into the official version. Each type of device of the same third-party manufacturer is allowed to release 1-2 devices.
 
-OpenBlock 社区欢迎各方将自己的设备pr到官方版本内，同一第三方厂商的每个类型的设备允许发布1~2个。
+VCloudBlock 社区欢迎各方将自己的设备pr到官方版本内，同一第三方厂商的每个类型的设备允许发布1~2个。

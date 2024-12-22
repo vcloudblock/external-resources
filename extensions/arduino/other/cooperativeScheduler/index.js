@@ -20,7 +20,7 @@ const cooperativeScheduler = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['other'],
-    helpLink: 'https://openblockcc.gitee.io/wiki/main'
+    helpLink: 'https://vcloudblock.gitee.io/wiki/main'
 });
 
 module.exports = cooperativeScheduler;

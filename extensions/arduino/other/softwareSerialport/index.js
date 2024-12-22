@@ -20,7 +20,7 @@ const softwareSerial = formatMessage => ({
     msg: 'msg.js',
     official: true,
     tags: ['other'],
-    helpLink: 'https://openblockcc.gitee.io/wiki/main'
+    helpLink: 'https://vcloudblock.gitee.io/wiki/main'
 });
 
 module.exports = softwareSerial;

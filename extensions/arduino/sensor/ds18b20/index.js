@@ -21,7 +21,7 @@ const ds18b20 = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['sensor'],
-    helpLink: 'https://openblockcc.gitee.io/wiki/main'
+    helpLink: 'https://vcloudblock.gitee.io/wiki/main'
 });
 
 module.exports = ds18b20;

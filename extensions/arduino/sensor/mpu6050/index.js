@@ -21,7 +21,7 @@ const mpu6050 = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['sensor'],
-    helpLink: 'https://openblockcc.gitee.io/wiki/main'
+    helpLink: 'https://vcloudblock.gitee.io/wiki/main'
 });
 
 module.exports = mpu6050;

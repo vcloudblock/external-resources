@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '14.x'
 
-      - run: npm i -g openblock-resource-cli
+      - run: npm i -g vcloudblock-resource-cli
 
       - name: Sync translations
         run: |
@@ -30,7 +30,7 @@ jobs:
         run: |
           i18n-extract
           opt-size
-          gen-config --version=${{ github.ref_name }} --repo=openblockcc/external-resources --cdn=https://cdn.openblock.cc/
+          gen-config --version=${{ github.ref_name }} --repo=vcloudblock/external-resources --cdn=https://cdn.vcloudblock.cn/
           gen-hash
 
       - name: Get version
@@ -55,7 +55,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref_name }}
-          release_name: OpenBlock External Resources ${{ github.ref_name }}
+          release_name: VCloudBlock External Resources ${{ github.ref_name }}
           body: |
             - **New feature**
 
